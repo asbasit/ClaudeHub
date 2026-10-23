@@ -1,0 +1,7 @@
+# Personal, synced data: never commit
+sessions/*
+!sessions/.gitkeep
+inbox/*
+!inbox/EXAMPLE.md
+HANDOFF.md
+.DS_Store
