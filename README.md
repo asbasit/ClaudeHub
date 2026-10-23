@@ -27,8 +27,8 @@ flowchart LR
     subgraph HUB["ClaudeHub folder (synced by Dropbox)"]
         RULES["CLAUDE.md<br/>shared rules + machine list"]
         HAND["HANDOFF.md<br/>in-progress board"]
-        INBOX["inbox/&lt;MACHINE&gt;.md<br/>jobs per machine"]
-        SESS["sessions/&lt;MACHINE&gt;/<br/>one snapshot per session"]
+        INBOX["inbox/MACHINE.md<br/>jobs per machine"]
+        SESS["sessions/MACHINE/<br/>one snapshot per session"]
     end
 
     H1 -. reads .-> RULES & HAND & INBOX & SESS
